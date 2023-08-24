@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "Cursed Timer ULiL";
+    src: url("fonts/CursedTimerUlil.ttf");
+}
+
+.scoreboard{
+    width: 575px;
+    height: 385px;
+    background: #1B244A;
+}
+.board-title{
+    display: flex;
+    justify-content: space-evenly;
+}
+.board-title h3{
+    
+    color: #EEE;
+    text-align: center;
+    font-family: Verdana;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35.893px; /* 89.732% */
+    width: 149px;
+    margin-top: 68px;
+    margin-bottom: 21px;
+}
+
+.score {
+    
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.score-bg h2{
+font-family: Cursed Timer ULiL;
+font-size: 90px;
+font-weight: 400;
+line-height: 127px;
+letter-spacing: 0em;
+text-align: center;
+padding: none;
+margin: 0px;
+color: #F94F6D;
+
+
+}
+
+.score-bg{
+    background-image: url("img/home-score.svg");
+    width: 155px;
+    
+    height: 120px;
+    top: 125px;
+    left: 355px;
+}
+.add-score{
+    display: flex;
+    justify-content: space-evenly;
+    width: 155px;
+    
+}
+.score-12{
+    
+    width: 45px;
+    height: 45px;
+    
+    
+
+    margin-top: 26px;
+    
+
+}
+
+.score-12 button{
+    font-family: Cursed Timer ULiL;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center; 
+    color: #9AABD8;
+    background-color: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    box-shadow: 2px 2px #F94F6D;
+    cursor: pointer;
+
+
+}
+.score-btn{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.reset{
+    width: 150px;
+    margin: 10px auto;
+}
+
+.reset button{
+    font-family: Cursed Timer ULiL;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center; 
+    background-color: black;
+    color: #F94F6D;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-shadow: 2px 2px #F94F6D;
+    cursor: pointer;
+}
+
+.reset button:active {
+    
+    box-shadow: none;
+    transform: translateY(4px);
+    
+  }
+.score-12 button:active {
+    box-shadow: none;
+    transform: translateY(4px);
+  }
+
+  
